@@ -1,9 +1,9 @@
 {
-    "name": "venommusic",
-    "logo": "https://telegra.ph/file/bba6f800202a4c6c08ff6.png",
+    "name": "PRINCEMUSIC",
+    "logo": "https://telegra.ph/file/48f5cb58062d8c576961a.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC",
+    "repository": "https://github.com/Badnam-xD/Prince-xD",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -19,7 +19,7 @@
             "required": true
         },
         "STRING_SESSION": {
-            "description": "enter pyrogram string get it from @venomstring_bot",
+            "description": "enter pyrogram string get it from UR FATHER XD_BROTHERS",
             "required": true
         }
     },
