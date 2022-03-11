@@ -1,8 +1,8 @@
-<h2 align="centre"> venom ᴠᴄ ᴘʟᴀʏᴇʀ🔥</h2>
+<h2 align="centre"> ᴘʀɪɴᴄᴇ ᴠᴄ ᴘʟᴀʏᴇʀ🔥</h2>
 
-### 𝗩𝗘𝗡𝗢𝗠 𝗠𝗨𝗦𝗜𝗖 𝗜𝗦 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗧𝗢 𝗙𝗨𝗖𝗞 𝗠𝗨𝗦𝗜𝗖 𝗢𝗡 𝗧𝗚 𝗩𝗖......
+### .𝗜𝘁𝘀 𝗔𝗺𝗮𝘇𝗶𝗻𝗴 𝘃𝗰 𝗽𝗹𝗮𝘆𝗲𝗿.....
 
-<p align="center"><a href="https://t.me/venom_Team1"><img src="https://telegra.ph/file/e7cefcd224372e2aed239.png" width="300"></a></p>
+<p align="center"><a href="https://t.me/venom_Team1"><img src="https://telegra.ph/file/3eea6caa21f8d54d4186b.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
@@ -14,16 +14,7 @@
 - Python 3.8+ or 3.7
 
 
-🧪 ɢᴇᴛ SESSION_NAME ꜰʀᴏᴍ ʜᴇʀᴇ:
 
-[@venomstring_bot](https://t.me/venomstring_bot)
-
-
-
-
-## ᴄᴏᴍᴍᴀɴᴅꜱ 
-
-[CLICK HERE](https://t.me/V3N0M_0P/38)
 
 
 ## ꜰᴇᴀᴛᴜʀᴇꜱ ᴡɪᴛʜ ᴀɪ 🔥️
@@ -57,6 +48,5 @@
 
 
 
-### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
-<a href="https://t.me/V3NOM_support"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/V3N0M_0P"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
 
