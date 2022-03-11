@@ -1,10 +1,10 @@
-# Copyright (C) 2021 By AdityaPlayer
+# Copyright (C) 2021 By ᴘʀɪɴᴄᴇ ᴠᴄ ᴘʟᴀʏᴇʀ
 
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Dialog, Chat, Message
 from pyrogram.errors import UserAlreadyParticipant
-from modules.clientbot.clientbot import client as aditya
+from modules.clientbot.clientbot import client as ʙᴀᴅɴᴀᴍ
 from modules.config import SUDO_USERS
 
 @Client.on_message(filters.command(["gcast", "post", "send"]))
@@ -14,7 +14,7 @@ async def broadcast(_, message: Message):
     if message.from_user.id not in SUDO_USERS:
         return
     else:
-        wtf = await message.reply("`Stɑɤtɩŋʛ Ɓɤøɑɗƈɑst ...`")
+        wtf = await message.reply("`ꜱᴛᴀʀᴛɪɴɢ.......`")
         if not message.reply_to_message:
             await wtf.edit("**__Ƥɭɘɑsɘ Ʀɘƥɭy Ƭø ɑ Mɘssɑʛɘ Ƭø Stɑɤt Ɓɤøɑɗƈɑst ...__**")
             return
