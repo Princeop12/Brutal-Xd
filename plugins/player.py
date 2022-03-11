@@ -1,4 +1,4 @@
-# Aditya Halder // @AdityaHalder
+# Badnam // @its_brutal_xd
 
 import os
 import aiofiles
@@ -75,7 +75,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("resource/thumbnail.png")
+    image2 = Image.open("thumbnail.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -83,13 +83,13 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     Image.alpha_composite(image5, image6).save("temp.png")
     img = Image.open("temp.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("resource/font.otf", 32)
+    font = ImageFont.truetype("font.otf", 32)
     draw.text((190, 550), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
     draw.text((190, 590), f"Duration: {duration}", (255, 255, 255), font=font)
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: VENOM  (@VENOMxCRAZY)",
+        f"Powered By: Badnam (@Its_Badnam_xd)",
         (255, 255, 255),
         font=font,
     )
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Aditya_Player"
+        user.first_name = "Prince_player"
     usar = user
     wew = usar.id
     try:
@@ -129,7 +129,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 𝙰𝙳𝙼𝙸𝙽 𝚃𝙾 banadooo☹︎☹︎ ...**")
+                        "**💥 ʙꜱᴅᴋ 𝙰𝙳𝙼𝙸𝙽 𝚃𝙾 banadooo☹︎☹︎ ...**")
                     return
 
                 try:
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/bba6f800202a4c6c08ff6.png"
+        thumb_name = "https://telegra.ph/file/0f5692eef64c58289c80c.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -173,8 +173,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 REPO💞",
-                            url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
+                            text="💥 Owner💞",
+                            url=f"https://t.me/Rockstar_prince_op")
 
                 ]
             ]
@@ -212,8 +212,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="REPO",
-                            url=f"https://github.com/VENOMxCRAZY9/VENOMxOPxMUSIC")
+                            text="Owner",
+                            url=f"https://t.me/Rockstar_prince_op")
 
                 ]
             ]
@@ -221,15 +221,15 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/bba6f800202a4c6c08ff6.png"
+            thumb_name = "https://telegra.ph/file/0f5692eef64c58289c80c.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                         InlineKeyboardButton(
-                            text="MUSIC-REPO",
-                            url=f"https://t.me/V3NOM_SUPPORT")
+                            text="Owner",
+                            url=f"https://t.me/rockstar_prince_op")
 
                 ]
             ]
@@ -282,8 +282,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💞𝐒𝐔𝐌𝐏𝐎𝐑𝐓",
-                            url=f"https://t.me/v3nom_support")
+                            text="💞Owner",
+                            url=f"https://t.me/rockstar_prince_op")
 
                 ]
             ]
@@ -335,7 +335,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/2ccbee11c1838a868cdf9.jpg", 
                              caption="**💥 𝙋𝘼𝙐𝙎𝙀...**"
     )
 
@@ -346,7 +346,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/2ccbee11c1838a868cdf9.jpg", 
                              caption="**💥 𝑺𝑻𝑨𝑹𝑻𝑬𝑫 𝑷𝑳𝑨𝒀𝑰𝑵𝑮...**"
     )
 
@@ -380,7 +380,7 @@ async def skip(_, message: Message):
 
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/2ccbee11c1838a868cdf9.jpg", 
                              caption=f'* 𝐒𝐊𝐈𝐏𝐄𝐃...**'
    ) 
 
@@ -396,7 +396,7 @@ async def stop(_, message: Message):
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png", 
+                             photo="https://telegra.ph/file/2ccbee11c1838a868cdf9.jpg", 
                              caption="**💥 Sʈøƥƥɘɗ 🌷 ...**"
     )
 
@@ -414,6 +414,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/bba6f800202a4c6c08ff6.png",
+                              photo="https://telegra.ph/file/2ccbee11c1838a868cdf9.jpg",
                               caption="**💥  Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
